@@ -1,10 +1,10 @@
 let x, y;
 function test (x,y) {
     if (x<=y)
-    alert ("Ошибка!" + x + "<=" + y);
+    console.log ("Ошибка!" + x + "<=" + y);
     
     else {
-    alert ("x="+x + " и " + "y="+y + " -> " + x%(y*2+x**y-y));
+    console.log ("x="+x + " и " + "y="+y + " -> " + x%(y*2+x**y-y));
     }
 }
 test (17,9);

@@ -1,14 +1,13 @@
 function test (a) {
-    if (a<=0) {
-        
-        alert ("a=" +a+ "->" + "Верно");
-    }
+    if (a===0 || a<0) {
+         console.log ("a=" +a+ "->" + "Верно");
+      }  
+      
     else {
-        
-        alert ("a=" +a+ "->" + "Неверно");
-    }
-}
-test (1);
-test (0);
-test ('0');
-test (-1);
+         console.log ("a=" +a+ "->" + "Неверно");
+      }
+  }
+  test (1);
+  test (0);
+  test ('0');
+  test (-1);
